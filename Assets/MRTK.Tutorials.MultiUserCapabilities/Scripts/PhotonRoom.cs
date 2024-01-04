@@ -86,7 +86,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
             if (!PhotonNetwork.IsMasterClient) return;
 
-            if (TableAnchor.Instance != null) CreateInteractableObjects();
+            //if (TableAnchor.Instance != null) CreateInteractableObjects();
         }
 
         private void CreatPlayer()
