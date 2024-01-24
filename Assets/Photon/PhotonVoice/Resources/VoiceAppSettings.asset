@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: VoiceAppSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: 
+    AppIdRealtime: 3b1c51ba-9d3b-4d53-b7bc-2ddb7e30df4b
     AppIdFusion: 
     AppIdChat: 
-    AppIdVoice: 
+    AppIdVoice: a52ee54a-4416-4e3b-a441-18e976691c1b
     AppVersion: 
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: eu
     Server: 
     Port: 0
     ProxyServer: 
