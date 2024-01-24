@@ -1,6 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. 
 // Licensed under the MIT License.
 
+#if WINDOWS_UWP
 using MixedReality.Toolkit;
 using UnityEngine;
 
@@ -22,3 +23,4 @@ namespace MRTK.Tutorials.AzureSpatialAnchors
 #endif
     }
 }
+#endif
