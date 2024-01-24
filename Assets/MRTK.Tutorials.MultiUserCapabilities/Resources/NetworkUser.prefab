@@ -786,8 +786,8 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
-  Mute: 0
+  Loop: 1
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -2701,9 +2701,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5769745097864554600}
     m_Modifications:
+    - target: {fileID: 791962291644596673, guid: 592bd9d130c57314fbaf25454d7450c0, type: 3}
+      propertyPath: AudioSource
+      value: 
+      objectReference: {fileID: 3608343401214893935}
     - target: {fileID: 1708780797389445737, guid: 592bd9d130c57314fbaf25454d7450c0, type: 3}
       propertyPath: m_Name
       value: Mateo_Avatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623153121384314712, guid: 592bd9d130c57314fbaf25454d7450c0, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2921375103537143645, guid: 592bd9d130c57314fbaf25454d7450c0, type: 3}
       propertyPath: m_LocalPosition.x
