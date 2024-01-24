@@ -786,11 +786,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: PunTest
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 806bc67f0a6edb01
   metroApplicationDescription: PunTest
   wsaImages: {}
   metroTileShortName: PunTest
@@ -812,7 +812,7 @@ PlayerSettings:
       InternetClientServer: True
       SpatialPerception: True
       InternetClient: True
-      WebCam: False
+      WebCam: True
       Microphone: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 

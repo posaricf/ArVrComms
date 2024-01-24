@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "com.microsoft.azure.object-anchors.runtime": {
+      "version": "file:MixedReality/com.microsoft.azure.object-anchors.runtime-0.25.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.microsoft.azure.remote-rendering": {
+      "version": "file:MixedReality/com.microsoft.azure.remote-rendering-1.2.20.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
     "com.microsoft.azure.spatial-anchors-sdk.android": {
       "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.14.1.tgz",
       "depth": 0,
@@ -39,13 +51,13 @@
       }
     },
     "com.microsoft.mrtk.graphicstools.unity": {
-      "version": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.6.5.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.6.7.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
     },
     "com.microsoft.mrtk.tts.windows": {
-      "version": "file:MixedReality/com.microsoft.mrtk.tts.windows-1.0.2.tgz",
+      "version": "file:MixedReality/com.microsoft.mrtk.tts.windows-1.0.4.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}

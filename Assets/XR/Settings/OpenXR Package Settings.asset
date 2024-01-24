@@ -768,6 +768,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-545739976853457039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34219f5077d851f448f60c5f0c3568ee, type: 3}
+  m_Name: AzureRemoteRenderingFeature Metro
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Azure Remote Rendering
+  version: 0.0.1
+  featureIdInternal: com.microsoft.azure.remote-rendering.feature.remote-rendering
+  openxrExtensionStrings: 
+  company: Microsoft
+  priority: 0
+  required: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,6 +975,7 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
+  - {fileID: 7056160182864830250}
   - {fileID: 7279635438211729105}
   - {fileID: -4699930450617277352}
   - {fileID: 4752486673100142334}
@@ -1251,6 +1272,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &7056160182864830250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34219f5077d851f448f60c5f0c3568ee, type: 3}
+  m_Name: AzureRemoteRenderingFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Azure Remote Rendering
+  version: 0.0.1
+  featureIdInternal: com.microsoft.azure.remote-rendering.feature.remote-rendering
+  openxrExtensionStrings: 
+  company: Microsoft
+  priority: 0
+  required: 0
 --- !u!114 &7249562181992705290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,6 +1346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 839227342114525378}
+  - {fileID: -545739976853457039}
   - {fileID: -3474514127180723932}
   - {fileID: -1997474361168321262}
   - {fileID: -4367482512690219357}
@@ -1358,7 +1400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79c911b38743a649b1c1eddb5097202, type: 3}
   m_Name: HandTrackingFeaturePlugin Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking
   version: 1.10.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking

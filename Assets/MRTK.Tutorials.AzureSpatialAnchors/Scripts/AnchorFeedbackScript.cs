@@ -1,6 +1,8 @@
 ﻿// Copyright (c) Microsoft Corporation. 
 // Licensed under the MIT License.
 
+#if WINDOWS_UWP
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -82,3 +84,5 @@ public class AnchorFeedbackScript : MonoBehaviour
         feedbackText.text = "Azure anchor located";
     }
 }
+
+#endif

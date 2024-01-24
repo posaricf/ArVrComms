@@ -1,6 +1,8 @@
 // Copyright (c) Microsoft Corporation. 
 // Licensed under the MIT License.
 
+#if WINDOWS_UWP
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -395,3 +397,5 @@ public class AnchorModuleScript : MonoBehaviour
     public event DeleteASAAnchorDelegate OnDeleteASAAnchor;
     #endregion
 }
+
+#endif

@@ -10,6 +10,9 @@ namespace MRTK.Tutorials.MultiUserCapabilities
 
         [HideInInspector] public string azureAnchorId = "";
         [HideInInspector] public PhotonView localUser;
+
+        [HideInInspector] public PhotonView leftHandUser;
+        [HideInInspector] public PhotonView rightHandUser;
         private bool isConnected;
 
         private void Awake()

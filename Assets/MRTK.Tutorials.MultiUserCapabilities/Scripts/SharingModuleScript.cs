@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+#if WINDOWS_UWP
+
 namespace MRTK.Tutorials.MultiUserCapabilities
 {
     public class SharingModuleScript : MonoBehaviour
@@ -32,3 +34,5 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         }
     }
 }
+
+#endif
